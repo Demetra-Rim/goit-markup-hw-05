@@ -693,7 +693,7 @@ portfolio-list-item:focus {
 .modal-form {
     margin-bottom: 8px;
     border: none;
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 
@@ -712,8 +712,6 @@ portfolio-list-item:focus {
     margin-bottom: 16px;
     border: none;
 }
-
-
 
 .label-form-input {
     width: 100%;
@@ -761,7 +759,7 @@ portfolio-list-item:focus {
 
 .form-comment {
     resize: none;
-    width: auto;
+    width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
 }
