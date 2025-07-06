@@ -532,7 +532,7 @@
             </div>
           </div>
           <div class="modal-form">
-            <label for="user-comment" class="label-form-comment">Comment</label
+            <label for="user-comment" class="label-form">Comment</label
             ><textarea
               name="user-comment"
               id="user-comment"
@@ -542,20 +542,22 @@
               class="form-comment"
             ></textarea>
           </div>
-          <div class="modal-form-check modal-form">
-            <label class="label-form privacy-form">
-              <input
-                type="checkbox"
-                name="privacy"
-                class="form-check-privacy"
-              />
+          <div class="modal-form modal-form-check">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              class="form-check-privacy visually-hidden"
+              id="user-privacy"
+            />
+            <label for="user-privacy" class="label-form privacy-form"
+              >I accept the terms and conditions of the
+              <span class="logo privacy-form"> Privacy Policy</span>
               <span class="custom-checkbox">
                 <svg width="10" height="8" class="label-svg-check">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <span class="logo privacy-form"> Privacy Policy</span>
             </label>
           </div>
           <button type="submit" class="hero-baner-button button-send">

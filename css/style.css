@@ -762,11 +762,22 @@ portfolio-list-item:focus {
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    height: 120px;
+    color: rgba(46, 47, 66, 0.4);
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    font-size: 12px;
+    background-color: transparent;
+    outline: transparent;
+    padding: 8px 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-comment:focus {
+    border-color: #4D5AE5;
 }
 
 .form-comment::placeholder {
-    padding-top: 8px;
-    padding-left: 16px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
@@ -786,6 +797,8 @@ portfolio-list-item:focus {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
 }
 
 .privacy-form {
@@ -799,8 +812,9 @@ portfolio-list-item:focus {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     position: relative;
-
-
+    fill: transparent;
+    justify-content: center;
+    align-items: center;
 }
 
 .custom-checkbox:checked {
