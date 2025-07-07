@@ -529,12 +529,13 @@ portfolio-list-item:focus {
     background-color: #31D0AA;
 }
 
-.footer-subscribe-form-wrap {
+.subscribe-form {
     display: flex;
-    display: inline-flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     margin-right: 24px;
     border: none;
+    gap: 24px;
 }
 
 .subscribe-form-window {
@@ -551,13 +552,6 @@ portfolio-list-item:focus {
     color: #fff;
 }
 
-.subscribe-form {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: row;
-    gap: 24px;
-}
 
 .subscribe-form-window::placeholder {
     line-height: 2;
