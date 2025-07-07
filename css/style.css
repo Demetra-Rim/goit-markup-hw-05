@@ -569,9 +569,6 @@ portfolio-list-item:focus {
     padding-left: 16px;
 }
 
-.footer-subscribe-form {
-    margin-bottom: 16px;
-}
 
 .subscribe-icon-btn {
     position: relative;
@@ -753,9 +750,6 @@ portfolio-list-item:focus {
 
 }
 
-.modal-form:last-child {
-    margin-bottom: 16px;
-}
 
 .modal-form:hover .label-svg,
 .modal-form:hover .label-form-input,
@@ -769,6 +763,10 @@ portfolio-list-item:focus {
 .label-form-input:focus-visible,
 .form-comment:focus-within {
     fill: #4d5ae5;
+}
+
+.modal-form-textarea {
+    margin-bottom: 16px;
 }
 
 .form-comment {
