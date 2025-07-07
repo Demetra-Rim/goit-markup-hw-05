@@ -460,7 +460,6 @@ portfolio-list-item:focus {
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: baseline;
 
@@ -511,10 +510,10 @@ portfolio-list-item:focus {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* 
 .subscribe-footer {
-    display: flex;
-    flex-direction: column;
-}
+   
+} */
 
 .footer-social-list {
     display: flex;
@@ -534,7 +533,6 @@ portfolio-list-item:focus {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-right: 24px;
     border: none;
     gap: 24px;
 }
@@ -560,28 +558,20 @@ portfolio-list-item:focus {
     color: #fff;
     font-weight: 400;
     font-size: 12px;
-    padding-top: 8px;
-    padding-left: 16px;
 }
 
 
 .subscribe-icon-btn {
-    position: relative;
-    padding: 8px 24px;
     height: 40px;
     min-width: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 16px;
-
 }
 
 .subscribe-icon {
     fill: #fff;
-    top: 8px;
-    right: 24px;
 }
 
 /* Footer end */
@@ -730,7 +720,6 @@ portfolio-list-item:focus {
 
 .label-form-wrap {
     position: relative;
-    margin-bottom: 16px
 }
 
 .label-svg {
@@ -738,7 +727,7 @@ portfolio-list-item:focus {
     position: absolute;
     left: 16px;
     top: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
