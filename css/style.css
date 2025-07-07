@@ -487,7 +487,7 @@ portfolio-list-item:focus {
 .footer-social {
     display: inline-flex;
     flex-direction: column;
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 .footer-social-title {
@@ -513,6 +513,7 @@ portfolio-list-item:focus {
 
 .subscribe-footer {
     display: flex;
+    flex-direction: column;
 }
 
 .footer-social-list {
@@ -578,11 +579,9 @@ portfolio-list-item:focus {
 }
 
 .subscribe-icon {
-    position: absolute;
     fill: #fff;
     top: 8px;
     right: 24px;
-    margin-left: 16px;
 }
 
 /* Footer end */
