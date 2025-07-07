@@ -744,6 +744,10 @@ portfolio-list-item:focus {
 
 }
 
+.modal-form:last-child {
+    margin-bottom: 16px;
+}
+
 .modal-form:hover .label-svg,
 .modal-form:hover .label-form-input,
 .form-comment:hover {
